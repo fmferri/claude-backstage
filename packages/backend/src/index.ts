@@ -51,4 +51,7 @@ backend.add(import('@backstage/plugin-search-backend-module-techdocs/alpha'));
 // kubernetes
 backend.add(import('@backstage/plugin-kubernetes-backend/alpha'));
 
+// github authetication
+backend.add(import('@backstage/plugin-auth-backend-module-github-provider'));
+
 backend.start();
